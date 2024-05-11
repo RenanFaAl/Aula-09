@@ -1,0 +1,190 @@
+#id_div{
+    font-size: 18px;
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+}
+
+.class_div{
+    font-size: 18px;
+    background-color: rgb(10, 132, 180);
+    width: 300px;
+    height: 100px;
+    border: 10px solid cadetblue;
+}
+
+/* div{
+    width: 300px;
+    height: 100px;
+    border: 10px solid cadetblue;
+    margin-top: 5px;
+} */
+
+#mt{
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+    margin-top: 30px;
+}
+#ml{
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+    margin-left: 30px;
+}
+#mb{
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+    margin-bottom: 30px;
+}
+#mr{
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+    margin-right: 30px;
+}
+#all-m{
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+    margin: 30px 20px 30px 20px;
+}
+
+#pt{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(235, 35, 9);
+    padding-top: 30px;
+}
+#pl{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(100, 53, 0);
+    padding-left: 30px;
+}
+#pb{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(190, 27, 177);
+    padding-bottom: 30px;
+}
+#pr{
+    width: 300px;
+    height: 300px;
+    background-color:rgb(91, 184, 91);
+    padding-right: 30px;
+}
+#all-p{
+    width: 300px;
+    height: 300px;
+    background-color: darkgreen;
+    padding: 30px 20px 30px 20px;
+}
+.block-element{
+    display: block;
+    width: 300px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.inline-element{
+    display: inline;
+    background-color: lightgrey;
+    width: 300px;
+    height: 100px;
+    margin-top: 10px;
+}
+.inline-block-element{
+    display: inline-block;
+    background-color: lightgrey;
+    width: 300px;
+    height: 100px;
+    margin-top: 10px;
+
+}
+.none-element{
+    display: none;
+}
+.static-box{
+    background-color: aquamarine;
+    position: static;
+    height: 50px;
+}
+.fixed-box{
+    position: fixed;
+    left: 50px;
+    top: 50px;
+    background-color: blueviolet;
+}
+.relative-box{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    background-color: bisque;
+}
+.parent{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    border: 1px solid #ccc;
+}
+.absolute-box{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background-color: aliceblue;
+
+}
+.flex-h-start{
+    display: flex;
+    justify-content: flex-start;
+    background-color: aquamarine;
+    margin-top: 10px;
+    height: 50px;
+}
+.flex-h-center{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    margin-top: 10px;
+    height: 50px;
+}   
+.flex-h-end{
+    display: flex;
+    justify-content: flex-end;
+    background-color: aquamarine;
+    margin-top: 10px;
+    height: 50px;
+}
+.flex-v-start{
+    display: flex;
+    background-color: aquamarine;
+    margin-top: 10px;
+    height: 150px;
+    align-items: start;
+}
+.flex-v-center{
+    display: flex;
+    align-items: center;
+    background-color: rgb(221, 13, 141);
+    margin-top: 10px;
+    height: 150px;
+}   
+.flex-v-end{
+    display: flex;
+    align-items: end;
+    background-color: rgb(72, 12, 168);
+    margin-top: 10px;
+    height: 150px;
+}
+.flex-v-stretch{
+    display: flex;
+    align-items: stretch;
+    background-color: rgb(218, 20, 37);
+    margin-top: 10px;
+    height: 150px;
+}
+.flex-v-stretch>span{
+    background-color: aliceblue;
+    border: 1px solid;
+}
